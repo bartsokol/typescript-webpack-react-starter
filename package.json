@@ -1,0 +1,30 @@
+{
+  "name": "typescript-webpack-react-starter",
+  "author": {
+    "name": "Bart Sokol"
+  },
+  "version": "0.0.1",
+  "scripts": {
+    "build": "webpack",
+    "start": "node tools/srcServer.js"
+  },
+  "devDependencies": {
+    "compression": "^1.6.2",
+    "express": "^4.14.0",
+    "open": "0.0.5",
+    "ts-loader": "^0.8.2",
+    "tslint": "^3.13.0",
+    "tslint-react": "^0.4.0",
+    "webpack-dev-middleware": "^1.6.1",
+    "webpack-hot-middleware": "^2.12.1"
+  },
+  "dependencies": {
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.5.2",
+    "react-router-redux": "^4.0.5",
+    "redux": "^3.5.2",
+    "redux-thunk": "^2.1.0"
+  }
+}

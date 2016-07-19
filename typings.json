@@ -1,0 +1,25 @@
+{
+  "globalDependencies": {
+    "react": "registry:dt/react#0.14.0+20160630100702",
+    "react-dom": "registry:dt/react-dom#0.14.0+20160412154040",
+    "react-redux": "registry:dt/react-redux#4.4.0+20160703120921",
+    "react-router": "registry:dt/react-router#2.0.0+20160621215300",
+    "react-router-redux": "registry:dt/react-router-redux#4.0.0+20160703120921",
+    "redux": "registry:dt/redux#3.5.2+20160703092728",
+    "redux-thunk": "registry:dt/redux-thunk#2.1.0+20160703120921"
+  },
+  "dependencies": {
+  },
+  "globalDevDependencies": {
+    "compression": "registry:dt/compression#0.0.0+20160501162003",
+    "express": "registry:dt/express#4.0.0+20160708185218",
+    "express-serve-static-core": "registry:dt/express-serve-static-core#4.0.0+20160715232503",
+    "mime": "registry:dt/mime#0.0.0+20160316155526",
+    "node": "registry:dt/node#6.0.0+20160709114037",
+    "open": "registry:dt/open#0.0.3+20160316155526",
+    "serve-static": "registry:dt/serve-static#0.0.0+20160606155157",
+    "source-map": "registry:dt/source-map#0.0.0+20160317120654",
+    "uglify-js": "registry:dt/uglify-js#2.6.1+20160316155526",
+    "webpack": "registry:dt/webpack#1.12.9+20160523035535"
+  }
+}
