@@ -3,18 +3,25 @@
   "author": {
     "name": "Bart Sokol"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "build": "webpack",
-    "start": "node tools/srcServer.js"
+    "start": "node tools/srcServer.js",
+    "lint": "tslint -c tslint.json src/**/*.ts*"
   },
   "devDependencies": {
     "compression": "^1.6.2",
+    "css-loader": "^0.23.1",
     "express": "^4.14.0",
+    "file-loader": "^0.9.0",
     "open": "0.0.5",
+    "react-hot-loader": "^1.3.0",
+    "style-loader": "^0.13.1",
     "ts-loader": "^0.8.2",
     "tslint": "^3.13.0",
+    "tslint-loader": "^2.1.5",
     "tslint-react": "^0.4.0",
+    "url-loader": "^0.5.7",
     "webpack-dev-middleware": "^1.6.1",
     "webpack-hot-middleware": "^2.12.1"
   },

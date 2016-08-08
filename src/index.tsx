@@ -1,8 +1,5 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
+import { HelloWorld } from './components/HelloWorld';
 
-let click = (ev: MouseEvent) => {
-  console.log('Hello world!'); // tslint:disable-line:no-console
-};
-
-ReactDOM.render(<div onClick={click}>Hello world!</div>, document.getElementById('app'));
+ReactDOM.render(<HelloWorld name='TypeScript Webpack React Starer' />, document.getElementById('app'));

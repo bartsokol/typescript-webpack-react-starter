@@ -12,7 +12,8 @@ const compiler = webpack(config);
 
 app.use(require('webpack-dev-middleware')(compiler, {
   noInfo: true,
-  publicPath: config.output.publicPath
+  publicPath: config.output.publicPath,
+  stats: { colors: true }
 }));
 
 app.use(require('webpack-hot-middleware')(compiler));
@@ -23,7 +24,7 @@ app.get('*', function(req, res) {
 
 app.listen(port, function(err) {
   if (err) {
-    console.log(err);
+    console.error(err);
   } else {
     open(`http://localhost:${port}`);
   }
